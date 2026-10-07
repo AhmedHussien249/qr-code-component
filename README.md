@@ -10,8 +10,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+
 
 ## Overview
 
@@ -19,33 +24,37 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](./screenshot.png)
 
+
+
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/AhmedHussien249/qr-code-component)
-- Live Site URL: [Live Demo on Vercel](https://qr-code-component1-nine.vercel.app/)
+- Solution URL: [Add solution URL here](https://github.com/AhmedHussien249/qr-code-component)
+- Live Site URL: [Add live site URL here](https://qr-code-component1-nine.vercel.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties & HSL color values
+- CSS custom properties
 - Flexbox
+- CSS Grid
 - Mobile-first workflow
+
+
 
 ### What I learned
 
-In this project, I focused on building a clean and responsive component using semantic HTML5 and CSS Flexbox:
+In this project, I focused on writing clean, semantic HTML structure and utilizing modern CSS layout techniques:
 
-- **Semantic HTML**: Structuring content using `<main>` and `<article>` tags for proper document hierarchy and accessibility.
-- **Centering with Flexbox**: Aligning the component seamlessly in the center of the viewport using `display: flex`, `align-items: center`, `justify-content: center`, and `min-height: 100vh`.
-- **Responsive Layout**: Using `max-width: 90vw` to maintain flexibility on smaller screens without overflowing.
+- **Semantic HTML Structure**: Used `<main>` and `<article>` tags to ensure accessibility and clear document structure.
+- **Flexbox Alignment**: Centered the component both horizontally and vertically while keeping the footer positioned at the bottom using `min-height: 100vh`.
+- **Responsive Sizing**: Used `max-width: 90vw` alongside a fixed width to ensure the card scales down smoothly on mobile screens without requiring media queries.
 
-```html
-<main>
-  <article>
-    <img src="assets/image-qr-code.png" alt="QR code linking to Frontend Mentor">
-    <h1 class="title">Improve your front-end skills by building projects</h1>
-    <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </article>
-</main>
+
+
+
+## Author
+
+- Website - [Ahmed Hussien](https://github.com/AhmedHussien249/qr-code-component)
+- Frontend Mentor - [@AhmedHussien249](https://www.frontendmentor.io/profile/yourusername)
